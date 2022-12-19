@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.y-fw-600 {
+    font-weight: 600;
+}
