@@ -5,3 +5,7 @@
 .y-fw-600 {
     font-weight: 600;
 }
+
+.my-shadow {
+    text-shadow: 2px 2px 4px #0000009a;
+}

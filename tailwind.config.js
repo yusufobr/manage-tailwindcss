@@ -19,6 +19,10 @@ module.exports = {
         veryPaleRed: "hsl(13, 100%, 96%)",
         veryLightGray: "hsl(0, 0%, 98%)",
       },
+      backgroundImage: {
+        'cta-background': "url(/img/bg-simplify-section-desktop.svg)",
+        'cta-background-color': "url(/img/bg-simplify-section-desktop-color.svg)",
+      }
     },
   },
   plugins: [],
