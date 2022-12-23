@@ -28,6 +28,24 @@
           class="hidden p-3 px-6 pt-2 text-white font-bold bg-brightRed rounded-full align-baseline hover:bg-brightRedLight md:block"
           >Get Start</a
         >
+        <!-- Humburger Menu - Icon -->
+        <button id="menu-btn" class="block hamburger md:hidden">
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+      <div class="md:hidden">
+        <div
+          id="menu"
+          class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+        >
+          <a href="#">Pricing</a>
+          <a href="#">Product</a>
+          <a href="#">About Us</a>
+          <a href="#">Careers</a>
+          <a href="#">Community</a>
+        </div>
       </div>
     </nav>
 
@@ -217,5 +235,71 @@
         </div>
       </div>
     </section>
+    <section id="footer" class="bg-veryDarkBlue">
+      <div
+        class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0"
+      >
+        <div
+          class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start"
+        >
+          <div class="mx-auto my-6 text-center capitalize text-white md:hidden">
+            Copyright &copy; 2022, all right reserved
+          </div>
+          <div>
+            <img src="/img/logo-white.svg" alt="" class="h-8" />
+          </div>
+          <div class="flex justify-center space-x-4">
+            <a href="#">
+              <img src="/img/icon-youtube.svg" alt="" class="h-8" />
+            </a>
+            <a href="#">
+              <img src="/img/icon-twitter.svg" alt="" class="h-8" />
+            </a>
+            <a href="#">
+              <img src="/img/icon-pinterest.svg" alt="" class="h-8" />
+            </a>
+            <a href="#">
+              <img src="/img/icon-instagram.svg" alt="" class="h-8" />
+            </a>
+            <a href="#">
+              <img src="/img/icon-facebook.svg" alt="" class="h-8" />
+            </a>
+          </div>
+        </div>
+        <div class="flex justify-around lg:space-x-32 md:space-x-3 space-x-32">
+          <div class="flex flex-col space-y-3 text-white">
+            <a href="#" class="hover:text-brightRed">Home</a>
+            <a href="#" class="hover:text-brightRed">Pricing</a>
+            <a href="#" class="hover:text-brightRed">Products</a>
+            <a href="#" class="hover:text-brightRed">About</a>
+          </div>
+          <div class="flex flex-col space-y-3 text-white">
+            <a href="#" class="hover:text-brightRed">Careers</a>
+            <a href="#" class="hover:text-brightRed">Community</a>
+            <a href="#" class="hover:text-brightRed">Privacy Policy</a>
+          </div>
+        </div>
+        <div class="flex flex-col justify-between">
+          <form>
+            <div class="flex space-x-3">
+              <input
+                type="text"
+                class="flex-1 px-4 rounded-full focus:outline-none"
+                placeholder="Updates ?"
+              />
+              <button
+                class="px-6 py-2 text-white rounded-full bg-brightRed hover:bg-brightRedLight focus:outline-none"
+              >
+                Go
+              </button>
+            </div>
+          </form>
+          <div class="hidden capitalize text-white md:block">
+            Copyright &copy; 2022, all right reserved
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="/JS/script.js"></script>
   </body>
 </html>
