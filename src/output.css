@@ -779,6 +779,11 @@ video {
   background-color: hsl(233 12% 13% / var(--tw-bg-opacity));
 }
 
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
 .bg-cta-background-color {
   background-image: url(/img/bg-simplify-section-desktop-color.svg);
 }
