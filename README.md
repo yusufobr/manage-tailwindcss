@@ -11,8 +11,8 @@
 
 <br>
 <div>
-    <img width="600" src="./img/manage1.png" />
-    <img width="600" src="./img/manage11.png" />
+    <img width="600" src="./img/manage1.PNG" />
+    <img width="600" src="./img/manage11.PNG" />
 </div>
 <br>
 
@@ -21,8 +21,8 @@
 <br>
 
 <div>
-    <img height="500" src="./img/manage2.png" />
-    <img height="500" src="./img/manage22.png" />
-    <img height="500" src="./img/manage222.png" />
-    <img height="500" src="./img/manage2222.png" />
+    <img height="500" src="./img/manage2.PNG" />
+    <img height="500" src="./img/manage22.PNG" />
+    <img height="500" src="./img/manage222.PNG" />
+    <img height="500" src="./img/manage2222.PNG" />
 </div>
